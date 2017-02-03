@@ -35,6 +35,8 @@ function loadUsers() {
 			$('#utenti tbody').append(riga);
 		}	
 		)	
+		
+		//pippo;
 	}
 	
 	$.get('https://jsonplaceholder.typicode.com/users', funzioneGestioneRisposta);
